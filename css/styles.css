@@ -24,7 +24,6 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
 .conteiner {
   margin-right: auto;
   margin-left: auto;
@@ -73,7 +72,6 @@ img {
   justify-content: center;
   border-bottom: 1px solid #ececec;
 }
-
 .header-navigation {
   display: flex;
   align-items: center;
@@ -106,8 +104,8 @@ img {
 }
 .header-link {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -156,21 +154,21 @@ img {
 .hero {
   background-color: var(--second-background-color);
   text-align: center;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
-  display: block;
   margin-top: 0px;
   margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--hero-text-color);
-  padding-top: 200px;
 }
 .hero-button {
-  display: inline block;
+  display: inline-block;
   border-radius: 4px;
   border: 0px;
   min-width: 200px;
@@ -200,7 +198,6 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-
 .feature-item {
   width: 270px;
   margin-right: 30px;
@@ -208,7 +205,6 @@ img {
 .feature-item:last-child {
   margin-right: 0px;
 }
-
 .feature-title {
   font-weight: 700;
   font-size: 14px;
@@ -219,7 +215,6 @@ img {
   margin-bottom: 10px;
   margin-top: 0px;
 }
-
 .feature-text {
   font-weight: 400;
   font-size: 14px;
@@ -389,7 +384,7 @@ img {
 .filter-list {
   display: flex;
   list-style: none;
-  margin-top: 94px;
+  padding-top: 94px;
   justify-content: center;
 }
 .filter-item {
@@ -397,7 +392,7 @@ img {
   padding-bottom: 16px;
 }
 .filter-button {
-  display: inline block;
+  display: inline-block;
   padding: 6px 22px;
   margin-right: 8px;
   cursor: pointer;
@@ -411,7 +406,6 @@ img {
   border-radius: 4px;
   border: 0px;
 }
-
 .filter-item:last-child {
   margin-right: 0px;
 }
@@ -446,7 +440,6 @@ img {
 .credentials-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-
 .example {
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -475,9 +468,3 @@ img {
   margin-left: 24px;
   margin-bottom: 20px;
 }
-
-/* .example {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
